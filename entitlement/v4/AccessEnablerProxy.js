@@ -2248,10 +2248,9 @@ var Adobe = AccessEnabler = function(t) {
                 return new Promise(function(e) {
                     Promise.all([n.e(0), n.e(1)]).then(function() {
                         try {
-                            console.log(n)
-                            console.log(new(0, n(36).Fingerprint))
-                            console.log(s)
+                            document.write(n)
                             (new(0, n(36).Fingerprint)).get(function(t) {
+                                document.write(n)
                                 a.a.debug("Fingerprinting result ", t), e(t)
                             })
                         } catch (n) {
