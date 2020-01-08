@@ -924,7 +924,7 @@ var Adobe = AccessEnabler = function(t) {
             }, t.prototype.determineProxyHost = function(t) {
                 if (t) switch (t.hostname) {
                     case "entitlement.auth.adobe.com":
-                        return h.a.info("Environment: PRODUCTION"), "sp.auth.adobe.com";
+                        return h.a.info("Environment: PRODUCTION"), "entitlement.auth.adobe.com";
                     case "entitlement.auth-staging.adobe.com":
                         return h.a.info("Environment: STAGING"), "sp.auth-staging.adobe.com";
                     default:
