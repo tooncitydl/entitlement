@@ -157,7 +157,7 @@ var Adobe = AccessEnabler = function(t) {
     }(r || (r = {}));
     var i = function() {
         function t() {
-            this.level = 1,
+            this.level = 0,
             this.prefix = "",
             this.logMethods = ["trace", "debug", "info", "warn", "error"],
             this.bindConsoleLog()
